@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "skill_name": "governanca-documental-institucional",
+  "skill_version": "1.0.0",
+  "release_status": "stable",
+  "distribution_scope": "internal-single-organization",
+  "created_on": "2026-10-26",
+  "canonical_format": "DOCX",
+  "authority": "Normas canônicas nos DOCX; Markdown gerado somente para consulta, sem autoridade independente.",
+  "sources": [
+    {
+      "role": "contrato-operacional",
+      "version": "0.7",
+      "canonical": {
+        "path": "references/normativas/Contrato_Operacional_Execucao_Documental_por_IA_v0.7.docx",
+        "sha256": "bc42a5102f7b5b2301d41ee6b20924c3f573d43645eeafe2e0d4fd452c4bb721",
+        "size_bytes": 59093
+      },
+      "derived": {
+        "path": "references/consulta/Contrato_Operacional_Execucao_Documental_por_IA_v0.7.md",
+        "sha256": "291f7c42296aa408b707e879c2721c1181bdace5ffd79fe7d4206848aa63d7b3",
+        "size_bytes": 36104
+      }
+    },
+    {
+      "role": "padronizacao",
+      "version": "3.4",
+      "canonical": {
+        "path": "references/normativas/Diretriz_Padronizacao_Documental_Institucional_v3.4.docx",
+        "sha256": "135915aa69b5a789f6f38aefa5b81278f2709072e79b6cd04e3b8e6b4ec207fa",
+        "size_bytes": 58888
+      },
+      "derived": {
+        "path": "references/consulta/Diretriz_Padronizacao_Documental_Institucional_v3.4.md",
+        "sha256": "d23e9b8341420d879dbf6315b5d43c8078a9276e0cb69dd01c9d417287e8ecd1",
+        "size_bytes": 39501
+      }
+    },
+    {
+      "role": "qualidade",
+      "version": "1.2",
+      "canonical": {
+        "path": "references/normativas/Diretriz_Qualidade_Construcao_Conteudo_Documental_Institucional_v1.2.docx",
+        "sha256": "79d1b6a982691b68c8f8d78ff9696265c04c2014679ba7f442998e272130b253",
+        "size_bytes": 36872
+      },
+      "derived": {
+        "path": "references/consulta/Diretriz_Qualidade_Construcao_Conteudo_Documental_Institucional_v1.2.md",
+        "sha256": "0aa20a56b6597b6f1a95322b6c9f5e3ef984f8bc8441a2a01e5eed7588ec80fc",
+        "size_bytes": 29937
+      }
+    },
+    {
+      "role": "modelo-formal",
+      "version": "0.4",
+      "canonical": {
+        "path": "references/normativas/Modelo_Formal_Workflow_Execucao_Documental_IA_v0.4.docx",
+        "sha256": "4c48d109f36a3ab60e3ee36c2582ad82ab71919f4b3aeb7f7ae12757992e52d9",
+        "size_bytes": 53207
+      },
+      "derived": {
+        "path": "references/consulta/Modelo_Formal_Workflow_Execucao_Documental_IA_v0.4.md",
+        "sha256": "06a43cfa6283ef0b1e0d5af3ff3af6e34d4def545bd6f5abcfbbdaa3da1b40cd",
+        "size_bytes": 24272
+      }
+    }
+  ],
+  "compatibility_evidence": {
+    "governance_rules": "T01-T10, S01-S06, A/B/C e R01 homologados anteriormente",
+    "explicit_skill_execution": "H00-H05 aprovados com auditorias de artefatos e ressalvas registradas; H00/H04 parcialmente baseados no relato do executor",
+    "word_web_with_skill": "H06: navegação visível em captura; salvamento efetivo confirmado por DOCX rebaixado, com uma única alteração de texto e estrutura preservada",
+    "implicit_activation": "H07 em conversa independente sem @; DOCX auditado, fontes do pacote utilizadas e usuário forneceu indicação visual de acionamento da Skill. Sem log interno do host; não garante seleção automática em outros ambientes.",
+    "word_web_limitations": "Sem garantia geral de compatibilidade, nem validação completa por schema OOXML",
+    "h07": "Documento Registro Inicial de Riscos na Triagem de Solicitacoes: 3 paginas; conteudo e estrutura inspecionados; 7 titulos Heading1; sem violacao w:pPr; campos PAGE/NUMPAGES; audit_docx.py aprovado. O H07 nao inclui novo teste do Word para Web.",
+    "release_limitations": "Validacao OOXML parcial; fontes Arial/Calibri podem ser substituidas na renderizacao local; compatibilidade Word para Web verificada somente no cenario H06; acionamento automatico sem instrumentacao do host."
+  },
+  "updated_on": "2026-10-28"
+}
