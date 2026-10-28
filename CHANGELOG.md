@@ -7,7 +7,7 @@
 - Reexecutados oito testes automatizados: integridade de fontes, portabilidade do diretório, auditoria OOXML, coerência de status de release e de versão entre frontmatter e manifesto.
 - `build_release.py` passa a ler a versão do manifesto, evitando divergência entre o nome do ZIP e a distribuição.
 - Nenhuma alteração nas quatro fontes normativas, nos espelhos Markdown derivados ou no workflow operacional `SKILL.md` (exceto metadado de versão).
-- Distribuição restrita à organização; a publicação e instalação no GitHub/ChatGPT continuam sendo ações separadas.
+- Distribuição pública do pacote 1.0.0, incluindo as quatro fontes normativas e transcrições, expressamente autorizada. A autorização não abrange automaticamente novos materiais ou versões futuras e não concede licença irrestrita; a aplicação continua institucional. Publicação no GitHub e instalação no ChatGPT permanecem ações separadas.
 
 ## 1.0.0-rc.2 — 2026-10-27
 
